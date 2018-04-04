@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sub2": "file:../sub2"
+    "sub2": "mblackstock/test-project/sub2"
   }
 }
