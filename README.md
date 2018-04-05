@@ -15,3 +15,16 @@ When installing the root project for development, run a script afterward to set 
 
     npm install
     npm run devInstall
+
+To run the script to demo one module calling another:
+
+    node index.js
+
+Output:
+
+```
+running root project
+sub1 called
+sub2 called
+sub2 called
+```
