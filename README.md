@@ -1,8 +1,8 @@
 ## Test Monorepo Project
 
-This project is a quick demo on how to set up a monorepository containing multiple nodes for publishing and development.
+This project is a quick demo on how to set up a monorepository containing multiple modules for publishing and development.
 
-The root project depends on two sub modules located in `/packages` and also published in npm individually.  The sub module
+This root project depends on two sub modules located in `/packages`.  The modules are also published in npm individually.  The sub module
 in `/packages/test-sub1` also depends on `@mblackstock/test-sub2` code located at `/packages/test-sub2`.
 
 When installing the root project normally, use the standard:
@@ -28,3 +28,5 @@ sub1 called
 sub2 called
 sub2 called
 ```
+
+After running the `devInstall` script, you can modify the sub modules and the changes will be picked up because of the symlinks.
