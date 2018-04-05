@@ -1,5 +1,5 @@
 {
-  "name": "test-project",
+  "name": "@mblackstock/test-project",
   "version": "1.0.0",
   "description": "test root",
   "main": "index.js",
