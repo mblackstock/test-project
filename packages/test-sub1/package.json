@@ -1,5 +1,5 @@
 {
-  "name": "sub1",
+  "name": "@mblackstock/test-sub1",
   "version": "1.0.0",
   "description": "test sub project",
   "main": "index.js",
@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sub2": "mblackstock/test-project/packages/sub2"
+    "@mblackstock/test-sub2": "file:../test-sub2"
   }
 }

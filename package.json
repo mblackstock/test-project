@@ -4,11 +4,13 @@
   "description": "test root",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devInstall": "cd packages/test-sub1; npm install ../test-sub2 --no-save; cd ../..; npm install ./packages/test-sub1 ./packages/test-sub2 --no-save;"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sub1": "mblackstock/test-project/packages/sub1"
+    "@mblackstock/test-sub1": "@mblackstock\/test-sub1@1.0.0",
+    "@mblackstock/test-sub2": "@mblackstock\/test-sub2@1.0.0"
   }
 }
