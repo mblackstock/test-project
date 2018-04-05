@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@mblackstock/test-sub1": "@mblackstock\/test-sub1@1.0.0",
-    "@mblackstock/test-sub2": "@mblackstock\/test-sub2@1.0.0"
+    "@mblackstock/test-sub1": "1.0.1",
+    "@mblackstock/test-sub2": "1.0.0"
   }
 }

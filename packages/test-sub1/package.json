@@ -1,6 +1,6 @@
 {
   "name": "@mblackstock/test-sub1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "test sub project",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@mblackstock/test-sub2": "file:../test-sub2"
+    "@mblackstock/test-sub2": "1.0.0"
   }
 }
